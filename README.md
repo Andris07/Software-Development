@@ -1,7 +1,7 @@
-# 👨‍💻 Andris' High School Software Development Journey 🚀
+# Andris' High School Software Development Journey 🚀
 
 ## Introduction 🔥
-Hi there 👋 I'm Andris, a 17-year-old student at the Neumann János Informatics Technical School. Currently, I'm in the 11th grade, diving into the world of software development 🧪
+Hi there 👋 I'm Andris, a 17-year-old student at the Neumann János Informatics Technical School. Currently, I'm in the 11th grade, diving into the world of software development 🧪  
 The main programming languages I'm learning are **C#**, **MySQL**, and **JavaScript**. Additionally, I have also studied the basics of **HTML** and **CSS** 🌱
 
 ---
