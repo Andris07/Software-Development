@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snooker_LAG", "Snooker_LAG\Snooker_LAG.csproj", "{44BB1CCD-A6D1-46FE-BA19-01333269EDA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44BB1CCD-A6D1-46FE-BA19-01333269EDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44BB1CCD-A6D1-46FE-BA19-01333269EDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44BB1CCD-A6D1-46FE-BA19-01333269EDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44BB1CCD-A6D1-46FE-BA19-01333269EDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3DC4244-46CA-48E7-B5CD-9DAE9E6A4493}
+	EndGlobalSection
+EndGlobal
