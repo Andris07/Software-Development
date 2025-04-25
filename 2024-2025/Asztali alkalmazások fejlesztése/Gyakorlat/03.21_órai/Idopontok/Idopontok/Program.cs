@@ -31,9 +31,9 @@ Console.WriteLine($"{teszt2.MasodPerc} másodperc");
 Console.WriteLine();
 
 // Metódusok ellenőrzése
-Console.WriteLine($"Délelőtt van-e? {teszt1.Delelott}");
-Console.WriteLine($"{teszt1.HanyPercEddig()} perc telt el eddig");
-Console.WriteLine($"{teszt1.HanyMasodPercEddig()} másodperc telt el eddig");
+Console.WriteLine($"Délelőtt van-e? {teszt2.Delelott}");
+Console.WriteLine($"{teszt2.HanyPercEddig()} perc telt el eddig");
+Console.WriteLine($"{teszt2.HanyMasodPercEddig()} másodperc telt el eddig");
 Console.WriteLine();
 
 // Végső megjelenítés

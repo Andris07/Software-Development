@@ -107,7 +107,7 @@ namespace Idopontok
 
         public int HanyMasodPercEddig()
         {
-            return ora * 60 * 60 + masodPerc;
+            return ora * 60 * 60 + perc * 60 + masodPerc;
         }
 
         public string Megjelenites()
