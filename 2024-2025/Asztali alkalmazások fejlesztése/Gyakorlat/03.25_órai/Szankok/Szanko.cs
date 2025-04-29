@@ -18,7 +18,7 @@ namespace Szankok
         {
             get
             {
-                return UresE;
+                return (letszam == 0);
             }
             set
             {
