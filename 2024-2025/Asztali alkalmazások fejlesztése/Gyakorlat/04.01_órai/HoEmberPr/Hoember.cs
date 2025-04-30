@@ -15,11 +15,7 @@ namespace HoEmberPr
 
         public bool VanSepru { get; set; }
 
-        public int GombocokSzama
-        {
-            get;
-            init;
-        }
+        public int GombocokSzama { get; init; }
 
         public int Meret
         {
@@ -69,7 +65,8 @@ namespace HoEmberPr
 
         public HoEmber()
         {
-            GombocokSzama = Random.Shared.Next(2,4);
+            Random r = new Random();
+            GombocokSzama = r.Next(2,4);
             Meret = 100;
             Fagyott = 100;
             VanSepru = true;
@@ -78,9 +75,9 @@ namespace HoEmberPr
         public HoEmber(int gombocokSzama, bool vanSepru)
         {
             GombocokSzama = gombocokSzama;
-            VanSepru = vanSepru;
             Meret = 100;
             Fagyott = 100;
+            VanSepru = vanSepru;
         }
 
         public string Info()
@@ -90,8 +87,8 @@ namespace HoEmberPr
 
         public void Olvad(int ertek)
         {
-            Fagyott -= ertek;
             Meret -= ertek;
+            Fagyott -= ertek;
         }
 
         public void VisszaFagy(int ertek)

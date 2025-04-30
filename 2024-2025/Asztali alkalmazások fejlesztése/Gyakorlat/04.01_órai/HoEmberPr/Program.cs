@@ -1,12 +1,12 @@
 ﻿using HoEmberPr;
 
-// 1.feladat
+// 1. feladat
 HoEmber hoember = new HoEmber();
 Console.WriteLine("Elkészült egy hóember");
 
 string valasz = "";
 
-while (valasz != "n")
+while (valasz.ToLower() != "n")
 {
     Console.WriteLine(hoember.Info());
     Console.WriteLine("Időjárás (i) / Seprűlopás (l) / Paraméteres hóember (n)");
@@ -50,7 +50,7 @@ while (valasz != "n")
     }
 }
 
-//2.f
+// 2. feladat
 bool naposvagyfagyos2 = false;
 
 if (Random.Shared.Next(0, 2) == 0)
@@ -70,13 +70,13 @@ if (Console.ReadLine()!.ToLower()=="igen")
 
 HoEmber hoember2 = new HoEmber(gombocszam, sepru);
 
-while (valasz != "n")
+while (valasz.ToLower() != "n")
 {
     Console.WriteLine(hoember2.Info());
     Console.WriteLine("Időjárás (i) / Seprűlopás (l) / Paraméteres hóember (n)");
     valasz = Console.ReadLine()!;
 
-    if (valasz == "i")
+    if (valasz.ToLower() == "i")
     {
         bool naposvagyfagyos = false;
         if (Random.Shared.Next(0, 2) == 0)
@@ -100,7 +100,7 @@ while (valasz != "n")
             }
         }
     }
-    else if (valasz == "l")
+    else if (valasz.ToLower() == "l")
     {
         if (hoember2.SepruLopas(Random.Shared.Next(1, 11)))
         {
