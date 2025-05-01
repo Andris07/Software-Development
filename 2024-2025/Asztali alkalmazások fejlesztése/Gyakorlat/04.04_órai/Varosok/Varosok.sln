@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Varosok", "Varosok\Varosok.csproj", "{A51355A3-0F6C-4AFE-B6AA-4E3CB1BE750A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Varosok_LIB", "Varosok_LIB\Varosok_LIB.csproj", "{41A76464-905B-4331-8050-AD386682B701}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A51355A3-0F6C-4AFE-B6AA-4E3CB1BE750A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51355A3-0F6C-4AFE-B6AA-4E3CB1BE750A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51355A3-0F6C-4AFE-B6AA-4E3CB1BE750A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51355A3-0F6C-4AFE-B6AA-4E3CB1BE750A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A76464-905B-4331-8050-AD386682B701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A76464-905B-4331-8050-AD386682B701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A76464-905B-4331-8050-AD386682B701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A76464-905B-4331-8050-AD386682B701}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECB7A4B0-08E1-452F-8533-462D5C69E457}
+	EndGlobalSection
+EndGlobal
