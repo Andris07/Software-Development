@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VB_LAG", "VB_LAG\VB_LAG.csproj", "{04BD51EB-791F-4B13-B3DD-191A6119ADFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VB_LIB", "VB_LIB\VB_LIB.csproj", "{1BB383F8-F624-4FA1-A907-494CE36ACD53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04BD51EB-791F-4B13-B3DD-191A6119ADFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BD51EB-791F-4B13-B3DD-191A6119ADFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BD51EB-791F-4B13-B3DD-191A6119ADFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BD51EB-791F-4B13-B3DD-191A6119ADFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BB383F8-F624-4FA1-A907-494CE36ACD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB383F8-F624-4FA1-A907-494CE36ACD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB383F8-F624-4FA1-A907-494CE36ACD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB383F8-F624-4FA1-A907-494CE36ACD53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDD8ECC9-7DDE-41F0-B599-A107F3FBC924}
+	EndGlobalSection
+EndGlobal
