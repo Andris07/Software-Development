@@ -56,12 +56,12 @@ article
 
 article:first-of-type
 {
-    padding-top: none;
+    margin-top: 0px;
 }
 
 article:last-of-type
 {
-    padding-bottom: none;
+    margin-bottom: 0px;
 }
 
 video
@@ -75,16 +75,16 @@ video
 h2
 {
     text-decoration: underline;
-    text-decoration-line: 5px;
+    text-decoration-thickness: 5px;
     text-decoration-color: #f3c522;
-    margin-top: 0.5;
-    margin-bottom: 0.5;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 p
 {
-    margin-top: 1.1;
-    margin-bottom: 1.1;
+    margin-top: 1.1em;
+    margin-bottom: 1.1em;
     text-align: justify;
 }
 
