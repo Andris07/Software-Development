@@ -1,10 +1,9 @@
-Linux Mint Cinnamon
-https://www.linuxmint.com/download.php
+[cinnamon]: https://www.linuxmint.com/download.php
+[debian]: https://drive.google.com/file/d/1MexzstWT2s0JE6u5YDbwAacbUhy6hxif/view
+[docker]: https://drive.google.com/file/d/19ljU-ZKgU_hmMoAuE9RwnDHkTKRXum3p/view
 
-Debian Ova File
-https://drive.google.com/file/d/1MexzstWT2s0JE6u5YDbwAacbUhy6hxif/view
+**Linux Mint Cinnamon:**[cinnamon]
+**Debian Ova File:**[debian]
+**Docker Ova File:**[docker]
 
-Docker Ova File
-https://drive.google.com/file/d/19ljU-ZKgU_hmMoAuE9RwnDHkTKRXum3p/view
-
-Elméleti PDF-ek feloldásához a jelszó: '#R3@dPDFp@$$123!'
+Elméleti PDF-ek feloldásához a jelszó: '**#R3@dPDFp@$$123!**'
