@@ -48,7 +48,7 @@
 
 ---
 
-**HTML + CSS MDN Dokumentációk:**
+**HTML + CSS MDN Dokumentációk:**\
 [Basic CSS selectors]\
 [Attribute selectors]\
 [Pseudo-classes and pseudo-elements]\
