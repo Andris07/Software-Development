@@ -1,0 +1,234 @@
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #ffffe0;
+    color: #ffffe0;
+    margin: 0px;
+    padding: 0px;
+}
+
+header
+{
+    width: 100%;
+    position: relative;
+    background-image: url(../images/header_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20%;
+}
+
+h1
+{
+    position: absolute;
+    bottom: -10%;
+    left: 20px;
+    font-size: 3vw;
+}
+
+h2
+{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: fit-content;
+    text-shadow: 2px 2px 7px gray;
+}
+
+h1, h2
+{
+    color: #333;
+    letter-spacing: 2.5px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+p
+{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+#fo
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+h3
+{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+section
+{
+    padding: 20px;
+    max-width: fit-content;
+    background-color: #ea3c53;
+    border: 3px solid crimson;
+}
+
+main
+{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+figure
+{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img, video
+{
+    width: 300px;
+    border: 3px solid crimson;
+}
+
+nav
+{
+    background-color: crimson;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #ffffe0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table
+{
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #ea3c53;
+    border: 3px solid crimson;
+}
+
+thead
+{
+    background-color: crimson;
+    font-weight: bold;
+}
+
+th
+{
+    text-align: left;
+    padding: 15px;
+}
+
+tbody
+{
+    border: 3px solid crimson;
+}
+
+tr
+{
+    border: 3px solid crimson;
+    padding: 15px;
+}
+
+td
+{
+    border: 3px solid crimson;
+    padding: 15px;
+}
+
+tfoot
+{
+    background-color: crimson;
+    text-align: center;
+}
+
+tfoot a
+{
+    color: #ffffe0;
+    text-decoration: none;
+}
+
+tfoot a:hover
+{
+    color: yellow;
+}
+
+tfoot a:active
+{
+    color: yellowgreen;
+}
+
+caption
+{
+    caption-side: bottom;
+    font-weight: bold;
+    font-size: large;
+    color: #333;
+    text-align: left;
+}
+
+footer
+{
+    background-color: crimson;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p
+{
+    text-align: center;
+}
+
+/*Ne töröld ki*/
+@media screen and (min-width: 1260px) {
+    #meme-eras{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 65% 35%;
+    }
+    #fo {
+        grid-column: 1 / -1;
+        padding-right: 20px; 
+    }
+    .text{
+        grid-column: 1;
+    }
+    figure{
+        grid-column: 2;
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 744px){
+    table{
+        font-size: small;
+        margin: 5px;
+        padding: 5px;
+        margin-inline: auto;
+        width: fit-content;
+    }
+}
+@media screen and (max-width: 650px){
+    table{
+        font-size: xx-small;
+        margin: 2px;
+        padding: 2px;
+        margin-inline: auto;
+        td{
+            margin: 1px;
+            padding: 1px;
+        }
+    }
+}
