@@ -5,5 +5,7 @@
 **Linux Mint Cinnamon:** [cinnamon]\
 **Debian Ova File:** [debian]\
 **Docker Ova File:** [docker]\
-\
+
+---
+
 Elméleti PDF-ek feloldásához a jelszó: '**#R3@dPDFp@$$123!**'
