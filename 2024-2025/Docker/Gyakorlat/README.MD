@@ -4,7 +4,7 @@
 
 **Linux Mint Cinnamon:** [cinnamon]\
 **Debian Ova File:** [debian]\
-**Docker Ova File:** [docker]\
+**Docker Ova File:** [docker]
 
 ---
 
