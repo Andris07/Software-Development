@@ -89,8 +89,8 @@ article
 
 h2
 {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-style: italic;
 }
 
@@ -262,26 +262,25 @@ table img:hover
     transform: scale(110%);
 }
 
-tr:last-of-type
+table:last-child tr:last-child
 {
     border: 3px solid var(--sotet-szoveg);
 }
 
-article:last-of-type
+article:last-child
 {
     padding-bottom: 40px;
 }
 
-article:last-of-type div
+article:last-child div
 {
     display: flex;
-    justify-content: space-between;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-article:last-of-type div img
+article:last-child div img
 {
     height: 40px;
 }
@@ -305,7 +304,11 @@ footer a
     position: absolute;
     width: 10vw;
     max-width: 110px;
-    animation: shoot 15s linear 0s infinite direction fill-mode;
+    animation-name: shoot;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes shoot

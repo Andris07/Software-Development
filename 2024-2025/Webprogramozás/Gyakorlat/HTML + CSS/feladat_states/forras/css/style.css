@@ -107,14 +107,14 @@ nav a:last-child
     border: 2px solid rgb(calc(var(--base-red) + 20), calc(var(--base-green) + 30), calc(var(--base-blue) + 40));
 }
 
+table tr:nth-child(odd)
+{
+    background-color: rgb(var(--base-red), calc(var(--base-green) + 15), var(--base-blue));
+}
+
 :root
 {
     --base-red: 228;
     --base-green: 218;
     --base-blue: 208;
-}
-
-table tr:nth-child(odd)
-{
-    background-color: rgb(var(--base-red), calc(var(--base-green) + 15), var(--base-blue));
 }
