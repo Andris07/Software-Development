@@ -21,27 +21,27 @@ console.log(`5. feladat: ${fullName}`);
 let a = 10;
 let b = 10;
 
-let kiirasErtek;
+let value;
 if (a == b)
 {
-    kiirasErtek = "A két változó értéke egyezik";
+    value = "A két változó értéke egyezik";
 }
 else
 {
-    kiirasErtek = "A két változó értéke nem egyezik";
+    value = "A két változó értéke nem egyezik";
 }
-console.log(`6. a feladat: ${kiirasErtek}`);
+console.log(`6. a feladat: ${value}`);
 
-let kiirasErtekTipus;
+let valueType;
 if (a === b)
 {
-    kiirasErtekTipus = "A két változó értéke és típusa egyezik";
+    valueType = "A két változó értéke és típusa egyezik";
 }
 else
 {
-    kiirasErtekTipus = "A két változó értéke és típusa nem egyezik";
+    valueType = "A két változó értéke és típusa nem egyezik";
 }
-console.log(`6. b feladat: ${kiirasErtekTipus}`);
+console.log(`6. b feladat: ${valueType}`);
 
 // 7. feladat
 console.log(`7. a feladat: ${a + b}`);
