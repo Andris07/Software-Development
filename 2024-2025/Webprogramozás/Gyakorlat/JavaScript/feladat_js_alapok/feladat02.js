@@ -1,4 +1,4 @@
-"use strict";
+`use strict`;
 
 // 2. feladat
 console.log(`2. feladat: `);

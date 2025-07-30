@@ -1,19 +1,19 @@
-"use strict";
+`use strict`;
 
 // 2. feladat
 console.log(`2. feladat: Hello World!`);
 
 // 3. feladat
-let familyName = "Laczkovics";
+let familyName = `Laczkovics`;
 
 console.log(`3. a feladat: ${familyName}`);
 console.log(`3. b feladat: ${typeof(familyName)}`);
 
 // 4. feladat
-let givenName = "András Gergő";
+let givenName = `András Gergő`;
 
 // 5. feladat
-let fullName = familyName + " " + givenName;
+let fullName = familyName + ` ` + givenName;
 
 console.log(`5. feladat: ${fullName}`);
 
@@ -24,22 +24,22 @@ let b = 10;
 let value;
 if (a == b)
 {
-    value = "A két változó értéke egyezik";
+    value = `A két változó értéke egyezik`;
 }
 else
 {
-    value = "A két változó értéke nem egyezik";
+    value = `A két változó értéke nem egyezik`;
 }
 console.log(`6. a feladat: ${value}`);
 
 let valueType;
 if (a === b)
 {
-    valueType = "A két változó értéke és típusa egyezik";
+    valueType = `A két változó értéke és típusa egyezik`;
 }
 else
 {
-    valueType = "A két változó értéke és típusa nem egyezik";
+    valueType = `A két változó értéke és típusa nem egyezik`;
 }
 console.log(`6. b feladat: ${valueType}`);
 
