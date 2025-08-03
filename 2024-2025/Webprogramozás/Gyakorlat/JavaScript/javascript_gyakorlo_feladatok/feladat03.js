@@ -2,13 +2,13 @@
 
 const nums = [15, 28, 42, 95, 33];
 
-function getMinMax(tomb = [], tipus = `min`)
+function getMinMax(tomb = [], tipus)
 {
-    if (tipus === `min`)
+    if (tipus == `min`)
     {
         return Math.min(...tomb);
     }
-    else if (tipus === `max`)
+    else if (tipus == `max`)
     {
         return Math.max(...tomb);
     }
