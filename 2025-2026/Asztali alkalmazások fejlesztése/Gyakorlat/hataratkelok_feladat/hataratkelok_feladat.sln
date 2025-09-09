@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hataratkelok", "hataratkelok\hataratkelok.csproj", "{5630B783-9353-44D0-BD4C-EDB8E1DB9AE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hataratkelok_LIB", "hataratkelok_LIB\hataratkelok_LIB.csproj", "{E2F89102-908B-4E77-A38E-C02C95B22063}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5630B783-9353-44D0-BD4C-EDB8E1DB9AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5630B783-9353-44D0-BD4C-EDB8E1DB9AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5630B783-9353-44D0-BD4C-EDB8E1DB9AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5630B783-9353-44D0-BD4C-EDB8E1DB9AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2F89102-908B-4E77-A38E-C02C95B22063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F89102-908B-4E77-A38E-C02C95B22063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F89102-908B-4E77-A38E-C02C95B22063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F89102-908B-4E77-A38E-C02C95B22063}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EC12F30-C2BB-4942-AB4F-CD4ABAA5CCBF}
+	EndGlobalSection
+EndGlobal
