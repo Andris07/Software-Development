@@ -1,6 +1,6 @@
-[JavaScript segédletek 1]: https://web.kdani.hu/frontend/javascript/
-[JavaScript segédletek 2]: https://web.kdani.hu/frontend/forms/
-[JavaScript segédletek 3]: https://javascript.info/
+[JavaScript segédlet 1]: https://web.kdani.hu/frontend/javascript/
+[JavaScript segédlet 2]: https://web.kdani.hu/frontend/forms/
+[JavaScript segédlet 3]: https://javascript.info/
 [Grid videó]: https://www.youtube.com/watch?v=_FZ6HZl9-Ys
 [CSS Diner]: https://flukeout.github.io/
 [Guess CSS]: https://www.guess-css.app/
@@ -28,9 +28,9 @@
 [Grid]: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids
 
 **JavaScript segédletek:**\
-[JavaScript segédletek 1]\
-[JavaScript segédletek 2]\
-[JavaScript segédletek 3]
+[JavaScript segédlet 1]\
+[JavaScript segédlet 2]\
+[JavaScript segédlet 3]
 
 ---
 
