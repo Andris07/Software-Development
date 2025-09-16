@@ -4,7 +4,7 @@
 [Szoftver életciklusa]: https://www.geeksforgeeks.org/software-engineering/software-development-life-cycle-sdlc/
 
 **Szoftvertesztelés segédletek:**\
-[Tesztelési jegyzőkönyv]
-[Tesztelési piramis Martin]
-[Tesztelési piramis Cortex]
+[Tesztelési jegyzőkönyv]\
+[Tesztelési piramis Martin]\
+[Tesztelési piramis Cortex]\
 [Szoftver életciklusa]
