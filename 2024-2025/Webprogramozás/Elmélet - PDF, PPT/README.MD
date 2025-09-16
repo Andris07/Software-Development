@@ -34,12 +34,12 @@
 
 ---
 
-**HTML + CSS Videó segédletek:**\
+**HTML + CSS videó segédletek:**\
 [Grid videó]
 
 ---
 
-**HTML + CSS Interaktív segédletek:**\
+**HTML + CSS interaktív segédletek:**\
 [CSS Diner]\
 [Guess CSS]\
 [CSS Transitions]\
@@ -48,7 +48,7 @@
 
 ---
 
-**HTML + CSS MDN Dokumentációk:**\
+**HTML + CSS MDN dokumentációk:**\
 [Basic CSS selectors]\
 [Attribute selectors]\
 [Pseudo-classes and pseudo-elements]\
