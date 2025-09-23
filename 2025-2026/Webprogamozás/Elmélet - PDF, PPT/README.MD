@@ -3,7 +3,7 @@
 [DOM Visualizer]: https://bioub.github.io/dom-visualizer/
 [DOM Nodes - javascript.info]: https://javascript.info/dom-nodes
 [DOM Navigation - javascript.info]: https://javascript.info/dom-navigation
-[DOM ismétlés]: https://youtu.be/VBbcO0aCNLc
+[DOM ismétlés videó]: https://youtu.be/VBbcO0aCNLc
 
 **Webprogramozás segédletek:**\
 [Gitlab - Webprogramozás 12SZFT1]\
@@ -15,4 +15,4 @@
 ---
 
 **Webprogramozás videó segédletek:**\
-[DOM ismétlés]
+[DOM ismétlés videó]
