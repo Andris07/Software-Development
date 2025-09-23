@@ -2,7 +2,7 @@
 [Debian OVA]: https://drive.google.com/file/d/1MexzstWT2s0JE6u5YDbwAacbUhy6hxif/view
 [Docker OVA]: https://drive.google.com/file/d/19ljU-ZKgU_hmMoAuE9RwnDHkTKRXum3p/view
 
-**OVA fájlok:**\
+**Docker OVA fájlok:**\
 [Linux Mint Cinnamon OVA]\
 [Debian OVA]\
 [Docker OVA]
