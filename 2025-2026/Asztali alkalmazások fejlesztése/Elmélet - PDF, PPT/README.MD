@@ -1,4 +1,6 @@
 [Nullable videó]: https://drive.google.com/file/d/1cT2v7ySeexyMga94MAyS9QtmYqfWNhvX/view
+[Indexer videó]: https://drive.google.com/file/d/1rKjoxz3SJWOb7vmxMSFW-VSFMjOfaPTD/view
 
 **Asztali alkalmazások fejlesztése videó segédletek:**\
-[Nullable videó]
+[Nullable videó]\
+[Indexer videó]
