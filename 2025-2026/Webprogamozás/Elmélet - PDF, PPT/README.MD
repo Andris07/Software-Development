@@ -3,6 +3,7 @@
 [DOM Visualizer]: https://bioub.github.io/dom-visualizer/
 [DOM Nodes - javascript.info]: https://javascript.info/dom-nodes
 [DOM Navigation - javascript.info]: https://javascript.info/dom-navigation
+[Arrays - javascript.info]: https://javascript.info/array#methods-pop-push-shift-unshift
 [DOM ismétlés videó]: https://youtu.be/VBbcO0aCNLc
 
 **Webprogramozás segédletek:**\
@@ -11,6 +12,7 @@
 [DOM Visualizer]\
 [DOM Nodes - javascript.info]\
 [DOM Navigation - javascript.info]
+[Arrays - javascript.info]
 
 ---
 
