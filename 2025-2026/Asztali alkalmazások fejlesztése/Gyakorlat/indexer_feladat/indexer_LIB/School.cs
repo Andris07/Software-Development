@@ -8,8 +8,8 @@ namespace indexer_LIB
 {
     public class School
     {
-        private List<Student> students = new List<Student>();
-        private List<Subject> subjects = new List<Subject>();
+        private List<Student> students = new();
+        private List<Subject> subjects = new();
 
         public void addStudent(string name, int id, Dictionary<Subject, List<int>> subjectsWithGrades)
         {
