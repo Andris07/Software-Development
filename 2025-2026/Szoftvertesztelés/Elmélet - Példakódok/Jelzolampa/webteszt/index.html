@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+input[type="checkbox"] {
+  appearance: none;
+  width: 64px;
+  height: 64px;
+  background-image: url('lights.png');
+  background-size: 128px 192px;
+  cursor: default;
+}
+
+#red        { background-position: -64px 0; }
+#red:checked{ background-position:   0   0; }
+
+#yellow:checked  { background-position:   0  -64px; }
+#yellow{ background-position: -64px -64px; }
+
+#green:checked       { background-position:   0  -128px; }
+#green{ background-position: -64px -128px; }
+#lights {
+    background-color: black;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+body {
+    background-color: skyblue;
+}
+</style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<button id="next" onclick="next()">Next</button>
+<button id="stop" onclick="stop()">Start/stop</button>
+<div id="lights">
+<form>
+    <input style="accent-color: red;" type="checkbox" id="red" checked><br>
+    <input style="accent-color: yellow;" type="checkbox" id="yellow"><br>
+    <input style="accent-color: green;" type="checkbox" id="green">
+</form>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script>
+        let state = "red";
+        let oldState = "";
+        let timer;
+        let counter = 0;
+        function setState(fromState) {
+            state = fromState;
+            updateState();
+        }
+
+        function updateState() {
+            switch(state) {
+                case "red": 
+                document.getElementById("red").checked=true;
+                document.getElementById("yellow").checked=false;
+                document.getElementById("green").checked=false;
+                break;
+                case "red-yellow": 
+                document.getElementById("red").checked=true;
+                document.getElementById("yellow").checked=true;
+                document.getElementById("green").checked=false;
+                break;
+                case "yellow": 
+                document.getElementById("red").checked=false;
+                document.getElementById("yellow").checked=true;
+                document.getElementById("green").checked=false;
+                break;
+                case "green": 
+                document.getElementById("red").checked=false;
+                document.getElementById("yellow").checked=false;
+                document.getElementById("green").checked=true;
+                break;
+            }
+        }
+
+        function next() {
+            switch(state) {
+                case "red": state = "red-yellow"; break;
+                case "red-yellow": state = "green"; break;
+                case "green": state = "yellow"; break;
+                case "yellow": state = "red"; break;
+            }
+            updateState();
+        }
+        function stop() {
+            if (state == "stopped") {
+                document.getElementById("next").disabled = false;
+                state = oldState;
+                clearInterval(timer);
+                updateState();
+            } else {
+                document.getElementById("next").disabled = true;
+                oldState = state;
+                state = "stopped";
+                timer = setInterval(() => {
+                    counter++;
+                    document.getElementById("red").checked=false;
+                    document.getElementById("green").checked=false;                    
+                    if (counter % 2 === 0) {
+                        document.getElementById("yellow").checked=true;                        
+                    } else {
+                        document.getElementById("yellow").checked=false;   
+                    }
+                }, 1000);
+            }
+        }
+
+    </script>
+</body>
+</html>
