@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csokigyar_LIB", "Csokigyar_LIB\Csokigyar_LIB.csproj", "{5A6F1A36-BEDB-4C56-A5C7-05177A2CC9A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csokigyar", "Csokigyar\Csokigyar.csproj", "{FF5B00C1-3D32-4467-A442-E2BD2E511C24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A6F1A36-BEDB-4C56-A5C7-05177A2CC9A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A6F1A36-BEDB-4C56-A5C7-05177A2CC9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A6F1A36-BEDB-4C56-A5C7-05177A2CC9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A6F1A36-BEDB-4C56-A5C7-05177A2CC9A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF5B00C1-3D32-4467-A442-E2BD2E511C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5B00C1-3D32-4467-A442-E2BD2E511C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5B00C1-3D32-4467-A442-E2BD2E511C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5B00C1-3D32-4467-A442-E2BD2E511C24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ECD53EF-8FF4-4D93-81D6-71DF2C0A301A}
+	EndGlobalSection
+EndGlobal
