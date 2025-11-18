@@ -2,7 +2,7 @@
 
 require_once "fuggvenyek.php";
 
-if($argc != 4)
+if ($argc != 4)
 {
     echo "Túl kevés/sok paraméter!\n";
     exit(1);

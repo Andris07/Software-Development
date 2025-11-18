@@ -1,31 +1,39 @@
 <?php
-$Daniel = [
+
+$Daniel =
+[
     "rajtszam" => 3,
     "nev" => "Daniel Ricciardo",
     "orszag" => "Australia",
-    "szulido" => "1989.07.01"
+    "szulido" => "1989.07.01",
 ];
-$Lando = [
+$Lando =
+[
     "rajtszam" => 4,
     "nev" => "Lando Norris",
     "orszag" => "United Kingdom",
-    "szulido" => "1999.11.13"
+    "szulido" => "1999.11.13",
 ];
-$Sebastian = [
+$Sebastian =
+[
     "rajtszam" => 5,
     "nev" => "Sebastian Vettel",
     "orszag" => "Germany",
-    "szulido" => "1987.07.03"
+    "szulido" => "1987.07.03",
 ];
-$Kimi = [
+$Kimi =
+[
     "rajtszam" => 7,
     "nev" => "Kimi Raikkönen",
     "orszag" => "Finland",
-    "szulido" => "1979.10.17"
+    "szulido" => "1979.10.17",
 ];
-$versenyzok = [
+$versenyzok =
+[
     $Daniel,
     $Lando,
     $Sebastian,
-    $Kimi
+    $Kimi,
 ];
+
+?>

@@ -1,50 +1,67 @@
 <?php
 
-require_once("fuggvenyek.php");
-
-if($argc > 3)
+// Hibaüzenet, ha a felhasználó túl sok paramétert adna meg
+if ($argc > 3)
 {
     echo "Túl sok paraméter!\n";
     exit(1);
 }
-if($argc < 2)
+
+$originalNum = $argv[1];
+$roundingOption = $argv[2];
+
+if (strtolower($roundingOption) == "fel")
 {
-    "Túl kevés paraméter!\n";
+    felKerekites($originalNum);
+}
+else if (strtolower($roundingOption) == "le")
+{
+    leKerekites($originalNum);
+}
+else if (strtolower($roundingOption) == "ft")
+{
+    ftKerekites($originalNum);
+}
+else if (strtolower($roundingOption) == "bankar")
+{
+    bankarKerekites($originalNum);
+}
+else if (!is_null($roundingOption))
+{
+    $roundingOption = matematikaiKerekites();
+}
+else
+{
+    echo "Ismeretlen kerekítési mód!\n";
     exit(2);
 }
 
-$szam = $argv[1];
-$mod = $argv[2] ?? "";
-
-if(!is_numeric($szam))
+function felKerekites(float $num)
 {
-    echo "Számot adjon meg!\n";
-    exit(3);
+    return ceil($num);
 }
-
-$mod = $mod;
-
-switch($mod) 
+function leKerekites(float $num)
 {
-    case "fel":
-        $eredmeny = felKerekites((float)$szam);
-        break;
-    case "le":
-        $eredmeny = leKerekites((float)$szam);
-        break;
-    case "ft":
-        $eredmeny = ftKerekites((int)$szam);
-        break;
-    case "bankar":
-        $eredmeny = bankarKerekites((float)$szam);
-        break;
-    case "":
-        $eredmeny = matematikaiKerekites((float)$szam);
-        break;
-    default:
-        exit("Ismeretlen kerekítési mód!\n");
+    return floor($num);
 }
-
-echo $eredmeny. "\n";
+function matematikaiKerekites(float $num)
+{
+    return round($num);
+}
+function ftKerekites($num)
+{
+    if (str($num)[count($num)-1] === "1" || str($num)[count($num)-1] === "2")
+    {
+        return $num - $num%5;
+    }
+    else if (str($num)[count($num)-1] === "8" || str($num)[count($num)-1] === "9")
+    {
+        return $num + $num%5;
+    }
+    else
+    {
+        return $num - $num%5 + 5;
+    }
+}
 
 ?>

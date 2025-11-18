@@ -38,16 +38,23 @@ else
 
 echo "6. feladat:\n";
 $reversed = strrev(strtolower($hero));
-if (strtolower($hero) === $reversed) {
+
+if (strtolower($hero) === $reversed)
+{
     echo "A hős neve palindrom szó.\n";
-} else {
+}
+else
+{
     echo "A hős neve NEM palindrom szó.\n";
 }
 
 echo "7. feladat:\n";
-if (strtoupper($hero[0]) === 'S') {
+if (strtoupper($hero[0]) === 'S')
+{
     echo "A hős neve 'S' betűvel kezdődik.\n";
-} else {
+}
+else
+{
     echo "A hős neve nem 'S' betűvel kezdődik.\n";
 }
 
@@ -60,4 +67,5 @@ else
 {
     echo "A hős neve nem 'n' betűvel végződik.\n";
 }
+
 ?>

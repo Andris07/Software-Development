@@ -10,7 +10,7 @@ function hetNapja($dayNum)
         4 => "csütörtök",
         5 => "péntek",
         6 => "szombat",
-        7 => "vasárnap"
+        7 => "vasárnap",
     ];
 
     return $days[$dayNum] ?? "Nincs ilyen nap!";
@@ -26,7 +26,7 @@ function napSorszama($dayName)
         "csütörtök" => 4,
         "péntek" => 5,
         "szombat" => 6,
-        "vasárnap" => 7
+        "vasárnap" => 7,
     ];
 
     return $days[$dayName] ?? 0;
@@ -100,6 +100,7 @@ function utolso($array)
 function osszeg($array)
 {
     $sum = 0;
+
     foreach ($array as $value)
     {
         $sum += $value;
@@ -110,6 +111,7 @@ function osszeg($array)
 function szorzat($array)
 {
     $product = 1;
+
     foreach ($array as $value)
     {
         $product *= $value;
@@ -120,6 +122,7 @@ function szorzat($array)
 function parosDb($array)
 {
     $count = 0;
+
     foreach ($array as $value)
     {
         if (parosE($value))
@@ -133,6 +136,7 @@ function parosDb($array)
 function parosOsszeg($array)
 {
     $sum = 0;
+
     foreach ($array as $value)
     {
         if (parosE($value))
@@ -145,7 +149,8 @@ function parosOsszeg($array)
 
 function elsoNOsszeg($array, int $n)
 {
-    $sum =0;
+    $sum = 0;
+
     for ($i = 0; $i < $n && $i < count($array); $i++)
     {
         $sum += $array[$i];
@@ -193,11 +198,12 @@ function matematikaiKerekites(float $x): int
 function ftKerekites(int $x): int
 {
     $mod = $x % 10;
-    if($mod == 1 || $mod == 2)
+
+    if ($mod == 1 || $mod == 2)
     {
         return $x - $mod;
     }
-    elseif($mod == 8 || $mod == 9)
+    else if ($mod == 8 || $mod == 9)
     {
         return $x + (10 - $mod);
     }
@@ -210,7 +216,8 @@ function ftKerekites(int $x): int
 function bankarKerekites(float $x): int
 {
     $rounded = round($x);
-    if($rounded % 2 == 0)
+
+    if ($rounded % 2 == 0)
     {
         return $rounded;
     }

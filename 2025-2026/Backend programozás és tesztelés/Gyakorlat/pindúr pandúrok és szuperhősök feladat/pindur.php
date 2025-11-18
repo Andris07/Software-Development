@@ -36,4 +36,5 @@ foreach ($magyarNevek as $nev)
 }
 
 echo implode("\n", $angolnevek) . "\n";
+
 ?>
