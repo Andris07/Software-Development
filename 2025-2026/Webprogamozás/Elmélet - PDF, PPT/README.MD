@@ -8,7 +8,8 @@
 [Tömb alapok JS videó]: https://youtu.be/xu-3y4D8kls
 [Tömbfüggvények és destructoring videó]: https://youtu.be/GDhwxvTwSFU
 [Scope és Destruction példák videó]: https://youtu.be/lSSiG--t8HY
-[Objektumok bevezető]: https://youtu.be/ePUkIqCIYMQ
+[Objektumok bevezető videó]: https://youtu.be/ePUkIqCIYMQ
+[Destrukció alkalmazása objektumokon videó]: https://youtu.be/KblPnyTRIus
 
 **Webprogramozás segédletek:**\
 [Gitlab - Webprogramozás 12SZFT1]\
@@ -25,4 +26,5 @@
 [Tömb alapok JS videó]\
 [Tömbfüggvények és destructoring videó]\
 [Scope és Destruction példák videó]\
-[Objektumok bevezető]
+[Objektumok bevezető videó]\
+[Destrukció alkalmazása objektumokon videó]
