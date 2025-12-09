@@ -6,7 +6,10 @@
 [FIRST elvek (dzone.com)]: https://dzone.com/articles/first-principles-solid-rules-for-tests
 [Tesztelési terv (testrail)]: https://www.testrail.com/blog/create-a-test-plan/
 [Teszt lefedettség (Martin Fowler)]: https://martinfowler.com/bliki/TestCoverage.html
+[Testid-k használata]: https://medium.com/@automationTest/why-your-development-team-should-use-data-testid-attributes-a83f1ca27ebb
 [Tesztelési jegyzőkönyv videó]: https://youtu.be/BfgZT8vIp4A
+[Szoftverfejlesztési módszerek videó]: https://youtu.be/LmRj2gcai3w?si=IuOezKdZbe2aBMp-
+[Selenium + Docker videó]: https://youtu.be/yuB76KFSqYA?si=xyC-3fWs8hs2lmRB
 
 **Szoftvertesztelés segédletek:**\
 [Agile manifesto]\
@@ -16,9 +19,12 @@
 [FIRST elvek (medium.com)]\
 [FIRST elvek (dzone.com)]\
 [Tesztelési terv (testrail)]\
-[Teszt lefedettség (Martin Fowler)]
+[Teszt lefedettség (Martin Fowler)]\
+[Testid-k használata]
 
 ---
 
 **Szoftvertesztelés videó segédletek:**\
-[Tesztelési jegyzőkönyv videó]
+[Tesztelési jegyzőkönyv videó]\
+[Szoftverfejlesztési módszerek videó]\
+[Selenium + Docker videó]
