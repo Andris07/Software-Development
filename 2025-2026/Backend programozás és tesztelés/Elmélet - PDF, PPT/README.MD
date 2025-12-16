@@ -7,6 +7,8 @@
 [Function videó]: https://youtu.be/9j-f0iNjgQQ
 [Multibyte karakterek, szövegfüggvények videó]: https://youtu.be/gVaVr6D9pCw
 [OOP 1. rész videó]: https://youtu.be/yWhEzm_U3PY
+[Composer, static, faker videó]: https://youtu.be/YuayAUgxfJk
+[PHP __get(), __set(), __toString() és autoload videó]: https://youtu.be/YuayAUgxfJk
 
 **Backend segédletek:**\
 [Órai Példakódok Gitlab]\
@@ -19,4 +21,6 @@
 [Asszociatív tömbök videó]\
 [Function videó]\
 [Multibyte karakterek, szövegfüggvények videó]\
-[OOP 1. rész videó]
+[OOP 1. rész videó]\
+[Composer, static, faker videó]\
+[PHP __get(), __set(), __toString() és autoload videó]
