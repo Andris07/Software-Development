@@ -5,6 +5,8 @@
 [Operátorok átdefiniálása videó]: https://drive.google.com/file/d/1WtmU9l-sZe_3VKPoeyMiPzfL8in3NgLl/view
 [Teremfoglalások videó]: https://drive.google.com/file/d/1I06rYxyRB_LZk4Us_20zSwZ-nNFfsE6z/view
 [Mikulás játékgyára videó]: https://drive.google.com/file/d/1hu2SwqfE1MMfIJgLk1h40yi6ty5W7HK4/view
+[Szerializáció videó]: https://drive.google.com/file/d/1gjb8_K-WmrUlNOQ-1acywuU_u-Eh7_Vu/view
+[Generic videó]: https://drive.google.com/file/d/1Q6UjI86F1yh6Ha6D70__zp0W_eFREet6/view
 
 **Asztali alkalmazások fejlesztése segédletek:**\
 [Órai Munkák Repository]
@@ -15,4 +17,6 @@
 [OOP Öröklődés videó]\
 [Operátorok átdefiniálása videó]\
 [Teremfoglalások videó]\
-[Mikulás játékgyára videó]
+[Mikulás játékgyára videó]\
+[Szerializáció videó]\
+[Generic videó]
