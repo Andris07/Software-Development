@@ -1,0 +1,14 @@
+{
+    "name": "neu/laczkovics-andris-frosty",
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Acme\\": "src/Acme/"
+        }
+    },
+    "require":
+    {
+        "fakerphp/faker": "^1.24"
+    }
+}
