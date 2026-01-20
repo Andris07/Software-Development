@@ -1,0 +1,80 @@
+let tickets =
+[
+    {
+        time: "1 trip",
+        price: {
+            paper: {
+                "full-fare": 3.20,
+                discounted: 1.60,
+            },
+            digital: {
+                "full-fare": 3.00,
+                discounted: 1.50,
+            },
+        },
+    },
+    {
+        time: "2 trips",
+        price: {
+            paper: {
+                "full-fare": 6.40,
+                discounted: 3.20,
+            },
+        },
+    },
+    {
+        time: "24h",
+        price: {
+            paper: {
+                "full-fare": 10.20,
+            },
+            digital: {
+                "full-fare": 9.70,
+            },
+        },
+    },
+    {
+        time: "7d",
+        price: {
+            paper: {
+                "full-fare": 28.90,
+            },
+            digital: {
+                "full-fare": 25.20,
+            },
+        },
+    },
+    {
+        time: "31d",
+        price: {
+            paper: {
+                "full-fare": 75.00,
+            },
+            digital: {
+                "full-fare": 65.20,
+            },
+        },
+    },
+    {
+        time: "365d",
+        price: {
+            paper: {
+                "full-fare": 467,
+                senior: 300,
+                youth: 300,
+                special: 300,
+            },
+            digital: {
+                "full-fare": 461,
+                senior: 294,
+                youth: 294,
+                special: 294,
+            },
+        },
+    },
+]
+
+export function ticketsArray()
+{
+    return tickets;
+}
