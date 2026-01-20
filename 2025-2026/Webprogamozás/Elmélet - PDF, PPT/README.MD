@@ -12,6 +12,7 @@
 [Objektumok bevezető videó]: https://youtu.be/ePUkIqCIYMQ
 [Destrukció alkalmazása objektumokon videó]: https://youtu.be/KblPnyTRIus
 [Vite és Tailwind összefoglaló videó]: https://youtu.be/qtzlrNYbsQs
+[JS Callback hell videó]: https://youtu.be/hcxC0J6U5WU
 
 **Webprogramozás segédletek:**\
 [Gitlab - Webprogramozás 12SZFT1]\
@@ -31,4 +32,5 @@
 [Scope és Destruction példák videó]\
 [Objektumok bevezető videó]\
 [Destrukció alkalmazása objektumokon videó]\
-[Vite és Tailwind összefoglaló videó]
+[Vite és Tailwind összefoglaló videó]\
+[JS Callback hell videó]
