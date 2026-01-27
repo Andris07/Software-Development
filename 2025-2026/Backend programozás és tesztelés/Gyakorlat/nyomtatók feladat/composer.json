@@ -1,0 +1,21 @@
+{
+    "name": "neu/php_nyomtatok-laczkovics-andris",
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Neu\\": "src/Neu/"
+        }
+    },
+    "authors":
+    [
+        {
+            "name": "Laczkovics András Gergő",
+            "email": "laczkovicsandris72@gmail.com"
+        }
+    ],
+    "require":
+    {
+        "fakerphp/faker": "^1.24"
+    }
+}
