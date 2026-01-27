@@ -9,6 +9,7 @@
 [OOP 1. rész videó]: https://youtu.be/yWhEzm_U3PY
 [Composer, static, faker videó]: https://youtu.be/YuayAUgxfJk
 [PHP __get(), __set(), __toString() és autoload videó]: https://youtu.be/YuayAUgxfJk
+[OOP Öröklődés videó]: https://youtu.be/1-9Fy_uY3ww
 
 **Backend segédletek:**\
 [Órai Példakódok Gitlab]\
@@ -23,4 +24,5 @@
 [Multibyte karakterek, szövegfüggvények videó]\
 [OOP 1. rész videó]\
 [Composer, static, faker videó]\
-[PHP __get(), __set(), __toString() és autoload videó]
+[PHP __get(), __set(), __toString() és autoload videó]\
+[OOP Öröklődés videó]
