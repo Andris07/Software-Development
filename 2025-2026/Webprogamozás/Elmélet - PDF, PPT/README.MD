@@ -13,7 +13,8 @@
 [Destrukció alkalmazása objektumokon videó]: https://youtu.be/KblPnyTRIus
 [Vite és Tailwind összefoglaló videó]: https://youtu.be/qtzlrNYbsQs
 [JS Callback hell videó]: https://youtu.be/hcxC0J6U5WU
-[Promise Slide és DEMO]: https://youtu.be/ZGtsVyN5JoI
+[Promise Slide és DEMO videó]: https://youtu.be/ZGtsVyN5JoI
+[Fetch GET videó]: https://youtu.be/CXPxaziMMFQ
 
 **Webprogramozás segédletek:**\
 [Gitlab - Webprogramozás 12SZFT1]\
@@ -35,4 +36,5 @@
 [Destrukció alkalmazása objektumokon videó]\
 [Vite és Tailwind összefoglaló videó]\
 [JS Callback hell videó]\
-[Promise Slide és DEMO]
+[Promise Slide és DEMO videó]\
+[Fetch GET videó]

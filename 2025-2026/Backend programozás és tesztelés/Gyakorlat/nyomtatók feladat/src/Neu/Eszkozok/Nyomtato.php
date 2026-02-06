@@ -29,6 +29,11 @@ class Nyomtato
         $this -> ar = $ar;
     }
 
+    public static function getGyartok() : array
+    {
+        return self :: $gyartok;
+    }
+
     public function __get(string $tulajdonsag) : mixed
     {
         if (in_array($tulajdonsag, array_keys(get_object_vars($this))))
