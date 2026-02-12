@@ -7,6 +7,10 @@
 [Mikulás játékgyára videó]: https://drive.google.com/file/d/1hu2SwqfE1MMfIJgLk1h40yi6ty5W7HK4/view
 [Szerializáció videó]: https://drive.google.com/file/d/1gjb8_K-WmrUlNOQ-1acywuU_u-Eh7_Vu/view
 [Generic videó]: https://drive.google.com/file/d/1Q6UjI86F1yh6Ha6D70__zp0W_eFREet6/view
+[WPF bevezetés 1. videó]: https://drive.google.com/file/d/1B5n8oKHVNYekydyx3oFZe1sAct7L6MxK/view
+[WPF bevezetés 2. videó]: https://drive.google.com/file/d/1Df2ayZfzdzH3WqMfWGd_uzggHK0kybB0/view
+[WPF Tárolók videó]: https://drive.google.com/file/d/1u25xj65VribrgguNQdRM-kmalCLXfoQQ/view
+[WPF controls videó]: https://drive.google.com/file/d/1XPrjvQ0WVbfk-75ETex-XFEPMmODyZWC/view
 
 **Asztali alkalmazások fejlesztése segédletek:**\
 [Órai Munkák Repository]
@@ -19,4 +23,8 @@
 [Teremfoglalások videó]\
 [Mikulás játékgyára videó]\
 [Szerializáció videó]\
-[Generic videó]
+[Generic videó]\
+[WPF bevezetés 1. videó]\
+[WPF bevezetés 2. videó]\
+[WPF Tárolók videó]\
+[WPF controls videó]
