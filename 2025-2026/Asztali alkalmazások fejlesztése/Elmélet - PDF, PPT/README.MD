@@ -11,6 +11,7 @@
 [WPF bevezetés 2. videó]: https://drive.google.com/file/d/1Df2ayZfzdzH3WqMfWGd_uzggHK0kybB0/view
 [WPF Tárolók videó]: https://drive.google.com/file/d/1u25xj65VribrgguNQdRM-kmalCLXfoQQ/view
 [WPF controls videó]: https://drive.google.com/file/d/1XPrjvQ0WVbfk-75ETex-XFEPMmODyZWC/view
+[Celeb videó]: https://drive.google.com/file/d/1Ttl-RnHAgbhV3DYBmu7_aPL7jMhn43Hf/view
 
 **Asztali alkalmazások fejlesztése segédletek:**\
 [Órai Munkák Repository]
@@ -27,4 +28,5 @@
 [WPF bevezetés 1. videó]\
 [WPF bevezetés 2. videó]\
 [WPF Tárolók videó]\
-[WPF controls videó]
+[WPF controls videó]\
+[Celeb videó]
