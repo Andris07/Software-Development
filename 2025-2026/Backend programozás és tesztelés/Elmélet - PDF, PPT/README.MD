@@ -11,6 +11,9 @@
 [PHP __get(), __set(), __toString() és autoload videó]: https://youtu.be/YuayAUgxfJk
 [OOP Öröklődés videó]: https://youtu.be/1-9Fy_uY3ww
 [PHP - JSON videó]: https://youtu.be/GzxzWdslYJQ
+[Docker compose videó]: https://youtu.be/dCtidIsdLUg
+[Első weboldalunk videó]:https://youtu.be/kkO9sP8j_as
+[Query paraméterek - GET videó]:https://youtu.be/eKVWIS5rNZQ
 
 **Backend segédletek:**\
 [Órai Példakódok Gitlab]\
@@ -27,4 +30,7 @@
 [Composer, static, faker videó]\
 [PHP __get(), __set(), __toString() és autoload videó]\
 [OOP Öröklődés videó]\
-[PHP - JSON videó]
+[PHP - JSON videó]\
+[Docker compose videó]\
+[Első weboldalunk videó]\
+[Query paraméterek - GET videó]
