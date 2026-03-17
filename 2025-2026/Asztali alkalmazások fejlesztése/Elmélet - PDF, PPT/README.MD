@@ -12,6 +12,9 @@
 [WPF Tárolók videó]: https://drive.google.com/file/d/1u25xj65VribrgguNQdRM-kmalCLXfoQQ/view
 [WPF controls videó]: https://drive.google.com/file/d/1XPrjvQ0WVbfk-75ETex-XFEPMmODyZWC/view
 [Celeb videó]: https://drive.google.com/file/d/1Ttl-RnHAgbhV3DYBmu7_aPL7jMhn43Hf/view
+[Futás idejű komponensek videó]: https://drive.google.com/file/d/1TE44DgXF5F276dFZ_TepoX9qmvrI2MQf/view
+[Életjáték videó]: https://drive.google.com/file/d/12izCPh9eefycM2wh_vnd_qTDnNy71B4L/edit
+[Towers videó]: https://drive.google.com/file/d/1nZP8C_cmXm_3lDxbWrknRd2I0Ao9Pdvm/view
 
 **Asztali alkalmazások fejlesztése segédletek:**\
 [Órai Munkák Repository]
@@ -29,4 +32,7 @@
 [WPF bevezetés 2. videó]\
 [WPF Tárolók videó]\
 [WPF controls videó]\
-[Celeb videó]
+[Celeb videó]\
+[Futás idejű komponensek videó]\
+[Életjáték videó]\
+[Towers videó]
