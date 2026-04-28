@@ -15,6 +15,7 @@
 [Futás idejű komponensek videó]: https://drive.google.com/file/d/1TE44DgXF5F276dFZ_TepoX9qmvrI2MQf/view
 [Életjáték videó]: https://drive.google.com/file/d/12izCPh9eefycM2wh_vnd_qTDnNy71B4L/edit
 [Towers videó]: https://drive.google.com/file/d/1nZP8C_cmXm_3lDxbWrknRd2I0Ao9Pdvm/view
+[Nyelviskola videó]: https://drive.google.com/file/d/13W6ZM-YAWzDxD-Gv0Cj6Xh3f1XxqUPKT/view
 
 **Asztali alkalmazások fejlesztése segédletek:**\
 [Órai Munkák Repository]
@@ -35,4 +36,5 @@
 [Celeb videó]\
 [Futás idejű komponensek videó]\
 [Életjáték videó]\
-[Towers videó]
+[Towers videó]\
+[Nyelviskola videó]
