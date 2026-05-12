@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alma", "Alma\Alma.csproj", "{474DE881-E6D8-43B6-B44C-BAC207D73705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alma_LIB", "Alma_LIB\Alma_LIB.csproj", "{EA44F1B2-67E7-4D05-B74D-AE8A74F0861C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{474DE881-E6D8-43B6-B44C-BAC207D73705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474DE881-E6D8-43B6-B44C-BAC207D73705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474DE881-E6D8-43B6-B44C-BAC207D73705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474DE881-E6D8-43B6-B44C-BAC207D73705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA44F1B2-67E7-4D05-B74D-AE8A74F0861C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA44F1B2-67E7-4D05-B74D-AE8A74F0861C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA44F1B2-67E7-4D05-B74D-AE8A74F0861C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA44F1B2-67E7-4D05-B74D-AE8A74F0861C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D49D3DA0-3246-4E53-ABDE-B011DC869C7E}
+	EndGlobalSection
+EndGlobal
