@@ -14,6 +14,9 @@
 [Docker compose videó]: https://youtu.be/dCtidIsdLUg
 [Első weboldalunk videó]:https://youtu.be/kkO9sP8j_as
 [Query paraméterek - GET videó]:https://youtu.be/eKVWIS5rNZQ
+[Form-ok használata PHP-val videó]: https://youtu.be/WLfxpjZo4E0?si=tBXnzPvQG_wa7QYK
+[PHP SSR - szűrés videó]: https://youtu.be/FWwc6scKiDg?si=9zGT2tVqXGYGb-eT
+[POST - Demo videó]: https://youtu.be/nAnHJH2_f2s?si=F9oLUPhqazeOJVg3
 
 **Backend segédletek:**\
 [Órai Példakódok Gitlab]\
@@ -33,4 +36,7 @@
 [PHP - JSON videó]\
 [Docker compose videó]\
 [Első weboldalunk videó]\
-[Query paraméterek - GET videó]
+[Query paraméterek - GET videó]\
+[Form-ok használata PHP-val videó]\
+[PHP SSR - szűrés videó]\
+[POST - Demo videó]
