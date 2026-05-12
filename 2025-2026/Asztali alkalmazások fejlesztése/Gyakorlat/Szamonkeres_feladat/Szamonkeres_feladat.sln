@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szamonkeres", "Szamonkeres\Szamonkeres.csproj", "{E2A116C7-D76C-4124-8510-B4792A275019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szamonkeres_LIB", "Szamonkeres_LIB\Szamonkeres_LIB.csproj", "{EAA94482-21B8-4562-A2C0-78E6E2894C2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2A116C7-D76C-4124-8510-B4792A275019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A116C7-D76C-4124-8510-B4792A275019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A116C7-D76C-4124-8510-B4792A275019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A116C7-D76C-4124-8510-B4792A275019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA94482-21B8-4562-A2C0-78E6E2894C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA94482-21B8-4562-A2C0-78E6E2894C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA94482-21B8-4562-A2C0-78E6E2894C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA94482-21B8-4562-A2C0-78E6E2894C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {615C70C6-87AB-41BD-8D8D-B58A505D1333}
+	EndGlobalSection
+EndGlobal
