@@ -1,0 +1,9 @@
+﻿<Application x:Class="Futas_Ideju_WPF_Bemutato.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Futas_Ideju_WPF_Bemutato"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

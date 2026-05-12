@@ -1,0 +1,20 @@
+﻿<Window x:Class="Futas_Ideju_WPF_Bemutato.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Futas_Ideju_WPF_Bemutato"
+        mc:Ignorable="d"
+        Title="Futás idejű komponensek példa" Height="450" Width="800">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Sorok száma:"/>
+            <TextBox x:Name="rowCounts" Text="3" MinWidth="30"/>
+            <Label Content="Oszlopok száma:"/>
+            <TextBox x:Name="columnCounts" Text="4" MinWidth="30"/>
+            <Button Content="Létrehozás" Margin="10,0" Click="Button_Click"/>
+        </StackPanel>
+
+        <Grid x:Name="area" Background="Aqua"/>
+    </StackPanel>
+</Window>
