@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borton", "Borton\Borton.csproj", "{502AE2FE-40F1-47AD-8C49-8D9F14FD58C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borton_LIB", "Borton_LIB\Borton_LIB.csproj", "{7D1F4749-2746-4FA5-B678-38BC3FFAA0C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borton_UI_LIB", "Borton_UI_LIB\Borton_UI_LIB.csproj", "{8EEEF6EE-11B0-4053-8C06-A1A3C9138B8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{502AE2FE-40F1-47AD-8C49-8D9F14FD58C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502AE2FE-40F1-47AD-8C49-8D9F14FD58C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502AE2FE-40F1-47AD-8C49-8D9F14FD58C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502AE2FE-40F1-47AD-8C49-8D9F14FD58C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D1F4749-2746-4FA5-B678-38BC3FFAA0C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1F4749-2746-4FA5-B678-38BC3FFAA0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1F4749-2746-4FA5-B678-38BC3FFAA0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1F4749-2746-4FA5-B678-38BC3FFAA0C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EEEF6EE-11B0-4053-8C06-A1A3C9138B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EEEF6EE-11B0-4053-8C06-A1A3C9138B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EEEF6EE-11B0-4053-8C06-A1A3C9138B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EEEF6EE-11B0-4053-8C06-A1A3C9138B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87F21BFD-E146-4A6D-88C0-6BDF0E1185D4}
+	EndGlobalSection
+EndGlobal
