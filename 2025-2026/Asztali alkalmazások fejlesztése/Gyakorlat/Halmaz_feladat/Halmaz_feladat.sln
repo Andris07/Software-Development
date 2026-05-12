@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halmaz", "Halmaz\Halmaz.csproj", "{DBE82296-6E01-4AB9-90F9-BF0B54834D6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halmaz_LIB", "Halmaz_LIB\Halmaz_LIB.csproj", "{D2C33841-4311-460E-AD72-F667E96ED023}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBE82296-6E01-4AB9-90F9-BF0B54834D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE82296-6E01-4AB9-90F9-BF0B54834D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE82296-6E01-4AB9-90F9-BF0B54834D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE82296-6E01-4AB9-90F9-BF0B54834D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C33841-4311-460E-AD72-F667E96ED023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C33841-4311-460E-AD72-F667E96ED023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C33841-4311-460E-AD72-F667E96ED023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C33841-4311-460E-AD72-F667E96ED023}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D5D151E-B862-4964-9695-83A77A400FD5}
+	EndGlobalSection
+EndGlobal
