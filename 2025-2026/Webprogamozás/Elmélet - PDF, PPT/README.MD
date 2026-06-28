@@ -21,6 +21,7 @@
 [FormData videó]: https://youtu.be/7mkarbOh3lg?si=LhcjV3p9KN620YrL
 [JS - async/await videó]: https://youtu.be/VcXJfhzJsfY?si=SQppIwVb7go58PVF
 [JS: RegExp videó]: https://youtu.be/ncfShuJKYqY?si=r_CzZD9zMxK38GOp
+[Italautomata videó]: https://youtu.be/DkuMl3wjCJc?si=TVrDGxG7r7GDtIwt
 
 **Webprogramozás segédletek:**\
 [Gitlab - Webprogramozás 12SZFT1]\
@@ -49,4 +50,5 @@
 [FULL CRUD videó]\
 [FormData videó]\
 [JS - async/await videó]\
-[JS: RegExp videó]
+[JS: RegExp videó]\
+[Italautomata videó]

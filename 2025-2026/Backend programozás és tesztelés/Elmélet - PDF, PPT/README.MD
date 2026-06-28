@@ -17,6 +17,7 @@
 [Form-ok használata PHP-val videó]: https://youtu.be/WLfxpjZo4E0?si=tBXnzPvQG_wa7QYK
 [PHP SSR - szűrés videó]: https://youtu.be/FWwc6scKiDg?si=9zGT2tVqXGYGb-eT
 [POST - Demo videó]: https://youtu.be/nAnHJH2_f2s?si=F9oLUPhqazeOJVg3
+[Italautomata videó]: https://youtu.be/dDbROl4qhfA?si=NO0Zc0oLQHge3huG
 
 **Backend segédletek:**\
 [Órai Példakódok Gitlab]\
@@ -39,4 +40,5 @@
 [Query paraméterek - GET videó]\
 [Form-ok használata PHP-val videó]\
 [PHP SSR - szűrés videó]\
-[POST - Demo videó]
+[POST - Demo videó]\
+[Italautomata videó]
