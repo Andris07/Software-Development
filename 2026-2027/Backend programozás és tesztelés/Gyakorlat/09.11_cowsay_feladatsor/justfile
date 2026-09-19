@@ -1,0 +1,9 @@
+default:
+    just build
+    just run
+
+build:
+    docker build -t lag/memesay:ubuntu -f memesay.Dockerfile .
+
+run:
+    docker run --rm --name memesay lag/memesay:ubuntu
