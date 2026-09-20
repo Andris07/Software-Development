@@ -1,0 +1,21 @@
+CsapatID;Nev;EdzoID;Trofeak;TornaID;TornaPontok
+1;Manchester City;1;36;1;18
+2;Real Madrid;2;45;1;21
+3;Arsenal;3;28;1;16
+4;Bayer Leverkusen;4;12;1;14
+5;Liverpool;5;34;1;17
+6;Bayern München;6;40;1;20
+7;Manchester United;7;38;2;11
+8;PSG;8;31;2;19
+9;Inter;9;29;2;18
+10;Atletico Madrid;10;26;2;15
+11;Napoli;11;14;2;13
+12;AC Milan;12;33;2;17
+13;Newcastle United;13;9;1;10
+14;Aston Villa;14;11;1;9
+15;Chelsea;15;25;2;12
+16;Germany XI;16;7;2;8
+17;Brighton;17;4;1;7
+18;Juventus;18;39;2;20
+19;Roma;19;22;2;14
+20;Barcelona;20;44;1;22

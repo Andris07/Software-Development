@@ -1,0 +1,21 @@
+EdzoID;Nev;Csapat;Trofeak;BonuszPerTrofea;EvekSzama;EvesFizetes
+1;Pep Guardiola;Manchester City;15;120000;9;22000000
+2;Carlo Ancelotti;Real Madrid;18;150000;6;25000000
+3;Mikel Arteta;Arsenal;5;80000;5;11000000
+4;Xabi Alonso;Bayer Leverkusen;4;70000;3;9000000
+5;Jurgen Klopp;Liverpool;11;100000;8;18000000
+6;Thomas Tuchel;Bayern München;7;90000;2;14000000
+7;Erik ten Hag;Manchester United;3;60000;3;10000000
+8;Luis Enrique;PSG;6;85000;2;13000000
+9;Simone Inzaghi;Inter;8;75000;4;12000000
+10;Diego Simeone;Atletico Madrid;12;95000;12;20000000
+11;Luciano Spalletti;Napoli;4;65000;3;8500000
+12;Stefano Pioli;AC Milan;5;70000;4;9500000
+13;Eddie Howe;Newcastle United;2;50000;3;7500000
+14;Unai Emery;Aston Villa;6;72000;4;9200000
+15;Mauricio Pochettino;Chelsea;3;68000;2;10500000
+16;Julian Nagelsmann;Germany XI;4;78000;2;9800000
+17;Roberto De Zerbi;Brighton;2;55000;3;7000000
+18;Zinedine Zidane;Juventus;14;140000;5;21000000
+19;Jose Mourinho;Roma;13;130000;4;19000000
+20;Hansi Flick;Barcelona;8;92000;1;16000000

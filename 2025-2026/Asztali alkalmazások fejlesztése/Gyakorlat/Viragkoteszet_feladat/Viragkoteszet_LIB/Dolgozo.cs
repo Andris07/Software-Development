@@ -16,14 +16,13 @@ namespace Viragkoteszet_LIB
         public FeladatLista feladatok = new FeladatLista();
         readonly List<Alapanyag> alapanyagok = new List<Alapanyag>();
 
-
         public Dolgozo(int dolgozoID, string dolgozoNev)
         {
             this.DolgozoID = dolgozoID;
             this.DolgozoNev = dolgozoNev;
         }
 
-        public void UjFeladatHozzaadasa(string feladat)
+        public void UjFeladatHozzaadasa(Termek feladat)
         {
             feladatok += feladat;
         }

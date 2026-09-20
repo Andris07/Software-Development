@@ -1,0 +1,3 @@
+TornaID;Nev
+1;Bajnokok Ligaja
+2;Europa Liga
