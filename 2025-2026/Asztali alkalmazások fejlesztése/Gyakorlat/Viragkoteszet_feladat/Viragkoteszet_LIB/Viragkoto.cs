@@ -15,20 +15,6 @@ namespace Viragkoteszet_LIB
 
         }
 
-        public int MunkaraForditottIdo
-        {
-            get
-            {
-                return MunkaraForditottIdo;
-            }
-            set
-            {
-                int munkaraForditottIdo = 0;
-
-
-
-                this.MunkaraForditottIdo = munkaraForditottIdo;
-            }
-        }
+        public int MunkaraForditottIdo => feladatok.feladatokLista.Sum(x => x.ElkeszitesiIdo);
     }
 }
