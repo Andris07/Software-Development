@@ -1,1 +1,2 @@
-SELECT * FROM `munkakorletszam`;
+SELECT * FROM `munkakorletszam`
+WHERE `db` >= 20;
