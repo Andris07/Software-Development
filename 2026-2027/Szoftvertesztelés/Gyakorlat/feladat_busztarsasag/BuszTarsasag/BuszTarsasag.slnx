@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="BuszTarsasag/BuszTarsasag.csproj" />
+  <Project Path="BuszTarsasag_LIB/BuszTarsasag_LIB.csproj" />
+  <Project Path="BuszTarsasag_Tests/BuszTarsasag_Tests.csproj" />
+</Solution>

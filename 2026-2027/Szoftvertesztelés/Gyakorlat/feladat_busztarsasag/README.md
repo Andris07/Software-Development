@@ -1,0 +1,3 @@
+## Yappity yapp
+
+össz-vissz kb szerintem 3 órán át írtam, AI nélkül mire kigondoltam mikor mi történik és milyen eseteket kell tesztelni és mellette milyen kódot kell rá írni ennyire jutottam, de csütörtökön angol emeltezek meg van még pár egyéb beadandóm szóval túl sok időt nem akartam rászánni, remélem nem probléma. Minimális AI usage a busz.MegalloUtasCsere metódusánál történt + a tesztírásnál a hibás szintaxis/struktúrális problémákra (pl. eddig nem tudtam, hogy TestCase-nél nem tudsz példanyosítani), de 90%-ban én írtam magamtól, valószínűleg a kód minőségén és az elnevezéseken ez meg is fog látszani :D
