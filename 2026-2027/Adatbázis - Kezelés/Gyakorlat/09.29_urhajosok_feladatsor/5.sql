@@ -1,0 +1,1 @@
+SELECT `nev`, `nem`, `szulev` FROM `urhajos`;

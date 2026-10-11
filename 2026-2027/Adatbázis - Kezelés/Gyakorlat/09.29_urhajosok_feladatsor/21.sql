@@ -1,0 +1,2 @@
+UPDATE `kuldetes`
+SET `honapok` = PERIOD_DIFF(EXTRACT(YEAR_MONTH FROM `veg`), EXTRACT(YEAR_MONTH FROM `kezdet`));

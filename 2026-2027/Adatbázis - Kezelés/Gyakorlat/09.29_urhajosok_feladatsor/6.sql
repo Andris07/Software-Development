@@ -1,0 +1,1 @@
+SELECT `megnevezes`, DATEDIFF(`veg`, `kezdet`) AS `nap` FROM `kuldetes`;
