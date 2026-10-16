@@ -11,6 +11,7 @@ namespace Sikolcsonzo_lib
     {
         public List<Berles> Berlesek = new();
         public bool IsEmpty => Berlesek.Count == 0;
+
         public bool SzabadE(DateOnly elsoNap, int berlesHossz)
         {
             bool szabadE = true;

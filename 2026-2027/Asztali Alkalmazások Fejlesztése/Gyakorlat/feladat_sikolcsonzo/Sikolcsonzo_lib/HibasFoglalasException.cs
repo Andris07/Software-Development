@@ -8,8 +8,9 @@ namespace Sikolcsonzo_lib
 {
     public class HibasFoglalasException : Exception
     {
-        public HibasFoglalasException()
-        :base("A kért időszakban a sporteszköz nem szabad!")
-        {}
+        public HibasFoglalasException() :base("A kért időszakban a sporteszköz nem szabad!")
+        {
+
+        }
     }
 }

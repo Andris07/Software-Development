@@ -9,18 +9,15 @@ namespace Sikolcsonzo_lib
     public class Kolcsonzesek
     {
         public List<Sporteszkoz> Sportszerek {  get; init; }
+
         public Kolcsonzesek(List<Sporteszkoz>sportszerek)
         {
             Sportszerek = sportszerek;
         }
+
         public string[] Leirasok => Sportszerek.Select(x => x.Leiras).ToArray();
-        public Sporteszkoz this[string azonosito]
-        {
-            get
-            {
-                return Sportszerek.Where(x=>x.Azonosito == azonosito).First();
-            }
-        }
+
+        public Sporteszkoz this[string azonosito] => Sportszerek.FirstOrDefault(x=>x.Azonosito == azonosito)!;
 
         public List<string> SporteszkozBerles(IEnumerable<string> igenyek)
         {
@@ -28,8 +25,8 @@ namespace Sikolcsonzo_lib
             foreach(string igeny in igenyek){
                 try
                 {
-                    string[] adatok = igeny.Split(';');
                     //Kezdet;Napok;EszkozID;Berlo
+                    string[] adatok = igeny.Split(';');
                     Sportszerek.Where(x => x.Azonosito == adatok[2]).First().Foglalasok+=new Berles(adatok[2], DateOnly.Parse(adatok[0]), int.Parse(adatok[1]), adatok[3]);
                 }
                 catch (Exception ex)

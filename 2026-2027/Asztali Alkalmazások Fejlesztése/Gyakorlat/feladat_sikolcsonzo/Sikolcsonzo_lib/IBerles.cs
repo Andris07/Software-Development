@@ -11,6 +11,5 @@ namespace Sikolcsonzo_lib
         string SporteszkozID { get; }
         DateOnly BerlesKezdet{ get; }
         int NapokSzama{ get; }
-
     }
 }

@@ -9,8 +9,8 @@ namespace Sikolcsonzo_lib
     public sealed class Snowboard : Sporteszkoz
     {
         public bool Cipovel { get; init; }
-        public Snowboard(string azonosito, string leiras, int meret, bool cipovel)
-            :base(azonosito, leiras, meret)
+
+        public Snowboard(string azonosito, string leiras, int meret, bool cipovel) :base(azonosito, leiras, meret)
         {
             Cipovel = cipovel;
         }

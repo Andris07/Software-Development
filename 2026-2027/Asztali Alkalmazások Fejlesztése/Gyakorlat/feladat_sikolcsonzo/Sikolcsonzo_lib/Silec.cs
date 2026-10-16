@@ -8,11 +8,11 @@ namespace Sikolcsonzo_lib
 {
     public sealed class Silec : Sporteszkoz
     {
-        public Silec(string azonosito, string leiras, int meret)
-        :base(azonosito, leiras, meret)
+        public Silec(string azonosito, string leiras, int meret) :base(azonosito, leiras, meret)
         {
             
         }
+
         public override int Bevetel(int berlesHossz)
         {
             if (berlesHossz > 7)
@@ -24,6 +24,7 @@ namespace Sikolcsonzo_lib
                 return 8000 + 3000 * (berlesHossz - 1);
             }
         }
+
         public override string ToString()
         {
             int osszNap = 0;

@@ -12,6 +12,7 @@ namespace Sikolcsonzo_lib
         public string Leiras { get; init; }
         public int Meret { get; init; }
         public Foglalas Foglalasok { get; set; }
+
         public Sporteszkoz(string azonosito, string leiras, int meret)
         {
             Azonosito = azonosito;
@@ -19,6 +20,7 @@ namespace Sikolcsonzo_lib
             Meret = meret;
             Foglalasok = new Foglalas();
         }
+
         public bool UjBerles(Berles berles)
         {
             try
@@ -34,14 +36,6 @@ namespace Sikolcsonzo_lib
 
         public virtual int Bevetel(int berlesHossz) => throw new NotImplementedException();
 
-        public bool this[DateOnly nap]
-        {
-            get
-            {
-                return Foglalasok.SzabadE(nap,0);
-            }
-        }
-            
-
+        public bool this[DateOnly nap] =>Foglalasok.SzabadE(nap,0);
     }
 }
