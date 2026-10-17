@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Tanacsado/Tanacsado.csproj" />
+  <Project Path="Tanacsado_LIB/Tanacsado_LIB.csproj" />
+</Solution>
