@@ -17,5 +17,10 @@ namespace Tanacsado_LIB
             ID = int.Parse(adatok[0]);
             Megnevezes = adatok[1];
         }
+
+        public override string ToString()
+        {
+            return $"{Megnevezes}";
+        }
     }
 }

@@ -1,0 +1,44 @@
+﻿<Window x:Class="TanacsadoGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TanacsadoGUI"
+        mc:Ignorable="d"
+        Title="Tanácsadók adatai" Height="450" Width="600">
+    <DockPanel Margin="20">
+        <Label DockPanel.Dock="Top" Content="Kérem, válasszon szakterületet!"/>
+        <ComboBox DockPanel.Dock="Top" x:Name="cb_szakterulet" SelectionChanged="cb_szakterulet_SelectionChanged"/>
+        
+        <Label DockPanel.Dock="Top" Content="Kérem, válasszon tanácsadót!"/>
+        <ComboBox DockPanel.Dock="Top" x:Name="cb_tanacsado" SelectionChanged="cb_tanacsado_SelectionChanged" IsEnabled="False"/>
+
+        <GroupBox DockPanel.Dock="Top" Header="A tanácsadó adatai">
+            <Grid x:Name="grid_adatok">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="auto" MinHeight="20"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="auto" MinHeight="20"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="auto" MinHeight="20"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="1" Grid.Column="0" Content="Telefon:"/>
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="tb_telefon" IsReadOnly="True"/>
+
+                <Label Grid.Row="3" Grid.Column="0" Content="E-mail:"/>
+                <TextBox Grid.Row="3" Grid.Column="1" x:Name="tb_email" IsReadOnly="True"/>
+
+                <Label Grid.Row="5" Grid.Column="0" Content="Óradíj:"/>
+                <TextBox Grid.Row="5" Grid.Column="1" x:Name="tb_oradij" IsReadOnly="True"/>
+            </Grid>
+        </GroupBox>
+    </DockPanel>
+</Window>

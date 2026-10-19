@@ -25,5 +25,10 @@ namespace Tanacsado_LIB
             Telefon = adatok[4];
             Email = adatok[5];
         }
+
+        public override string ToString()
+        {
+            return $"{Nev}";
+        }
     }
 }

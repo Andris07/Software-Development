@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Szepseg/Szepseg.csproj" />
+  <Project Path="SzepsegGUI/SzepsegGUI.csproj" />
+  <Project Path="Szepseg_LIB/Szepseg_LIB.csproj" />
+</Solution>
