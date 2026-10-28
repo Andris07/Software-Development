@@ -8,6 +8,10 @@
 
         public int FoglaltFerohely { get; private set; }
         public int SzabadFerohely => Ferohely - FoglaltFerohely;
+        public int Szallitott { get; private set; }
+
+        readonly List<BuszEsemeny> esemenyek = new List<BuszEsemeny>();
+        public List<BuszEsemeny> Esemenyek => esemenyek;
 
         public Busz(string meret, int ferohely, string rendszam)
         {
@@ -15,6 +19,7 @@
             Ferohely = ferohely;
             Rendszam = rendszam;
             FoglaltFerohely = 0;
+            Szallitott = 0;
             // kezdetben a buszon nincs utas, a végállomásokat is egyszerű megállókként fogom kezelni, tehát az első megálló maga a kiindulási pont
         }
 
@@ -34,6 +39,8 @@
             megallo.UtasCsere(buszraFelszalloEmberek, buszrolLeszalloEmberek);
 
             FoglaltFerohely += buszraFelszalloEmberek - buszrolLeszalloEmberek;
+            Szallitott += buszraFelszalloEmberek;
+            esemenyek.Add(new BuszEsemeny(megallo.Nev, buszraFelszalloEmberek, buszrolLeszalloEmberek));
 
             if (MegteltBusz() && megallo.MegallobanVarakozoEmberek > 0)
                 return false;
@@ -49,7 +56,22 @@
         public bool BuszFoglaltFerohelyErvenytelen() => FoglaltFerohely < 0 || FoglaltFerohely > Ferohely;
         public void BuszFoglaltFerohelySet(int foglaltFerohely) => FoglaltFerohely = foglaltFerohely; // teszteléshez kell csak
         public void SzabadFerohelyreFelszalloUtasok(Megallo megallo, int buszraFelszalloEmberek) => megallo.UtasCsere(buszraFelszalloEmberek - SzabadFerohely, 0);
-        public int LentMaradtUtasokSzama(int buszraFelszalloEmberek) => buszraFelszalloEmberek - SzabadFerohely;
+        public int LentMaradtUtasokSzama(int buszraFelszalloEmberek) => Math.Max(0, buszraFelszalloEmberek - SzabadFerohely);
+        public int EddigSzallitottUtasokLetszama() => Szallitott;
+
+        // az adott megállóig felszállt utasok száma, null ha a busz nem járt ott
+        public int? SzallitottUtasokMegalloig(string megalloNev)
+        {
+            int utolso = esemenyek.FindLastIndex(x => x.MegalloNev == megalloNev);
+
+            if (utolso == -1)
+                return null;
+
+            int osszeg = 0;
+            for (int i = 0; i <= utolso; i++)
+                osszeg += esemenyek[i].Felszallt;
+            return osszeg;
+        }
 
         public override string ToString()
         {

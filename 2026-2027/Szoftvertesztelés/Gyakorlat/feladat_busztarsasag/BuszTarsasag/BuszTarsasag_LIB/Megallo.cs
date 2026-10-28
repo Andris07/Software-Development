@@ -8,6 +8,8 @@ namespace BuszTarsasag_LIB
     {
         public string Nev { get; init; }
         public int MegallobanVarakozoEmberek { get; private set; }
+        public int FelszalltOsszesen { get; private set; }
+        public int LeszalltOsszesen { get; private set; }
 
         public Megallo(string nev, int megallobanVarakozoEmberek)
         {
@@ -27,6 +29,8 @@ namespace BuszTarsasag_LIB
                 return false;
 
             MegallobanVarakozoEmberek = ujVarakozoEmberek;
+            FelszalltOsszesen += buszraFelszalloEmberek;
+            LeszalltOsszesen += buszrolLeszalloEmberek;
 
             return true;
         }

@@ -17,6 +17,8 @@ namespace BuszTarsasag_LIB
             }
         }
 
+        public Megallo? MegalloNevAlapjan(string nev) => megalloHelyek.FirstOrDefault(m => m.Nev == nev);
+
         public bool ErvenytelenMegallo()
         {
             foreach (var megallo in megalloHelyek)

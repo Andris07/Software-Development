@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BuszTarsasag_LIB\BuszTarsasag_LIB.csproj" />
+  </ItemGroup>
+
 </Project>
