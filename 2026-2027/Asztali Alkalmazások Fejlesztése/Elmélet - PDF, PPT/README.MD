@@ -10,4 +10,7 @@
 [OSZTV]
 
 **Asztali alkalmazások fejlesztése videó segédletek:**\
+[Pénzügyi tanácsadók lib videó]\
+[Pénzügyi tanácsadók console videó]\
+[Pénzügyi tanácsadók gui videó]\
 [Binding videó]
