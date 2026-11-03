@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Urhajok/Urhajok.csproj" />
+  <Project Path="Urhajok_LIB/Urhajok_LIB.csproj" />
+  <Project Path="Urhajok_Tests/Urhajok_Tests.csproj" />
+</Solution>
