@@ -1,0 +1,645 @@
+openapi: "3.1.0"
+info:
+  title: Tabletek és tanulók
+  version: 1.0.0
+servers:
+  - url: http://backend.localhost
+    description: localhost backend
+  - url: http://backend.vm1.test
+    description: VM1 backend
+  - url: http://backend.vm2.test
+    description: VM2 backend
+  - url: http://backend.vm3.test
+    description: VM3 backend
+  - url: http://backend.vm4.test
+    description: VM4 backend
+  - url: http://backend.vm5.test
+    description: VM5 backend
+  - url: http://backend.vm6.test
+    description: VM6 backend
+
+paths:
+  /api/students:
+    get:
+      operationId: student.index
+      summary: Get all students
+      tags:
+        - Students
+      responses:
+        '200':
+          description: List of all students (first 467 available)
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Student'
+              examples:
+                response:
+                  value:
+                    data:
+                      - id: 1
+                        firstname: Tibor
+                        lastname: Bíró
+                        username: tibor.biro
+                        birthday: "2011-02-06"
+                        class: "9A"
+                        average: null
+                        height: 158
+                        siblings: 2
+                        image: "https://randomuser.me/api/portraits/men/0.jpg"
+                      - id: 2
+                        firstname: Barnabás
+                        lastname: Török
+                        username: barnabas.torok
+                        birthday: "2011-10-07"
+                        class: "9A"
+                        average: null
+                        height: 160
+                        siblings: 1
+                        image: "https://randomuser.me/api/portraits/men/1.jpg"
+
+  /api/students/student/{username}:
+    get:
+      operationId: student.student
+      summary: Get a single student by username
+      tags:
+        - Students
+      parameters:
+        - name: username
+          in: path
+          required: true
+          description: The username of the student
+          schema:
+            type: string
+          example: tibor.biro
+      responses:
+        '200':
+          description: Student details retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Student'
+              examples:
+                response:
+                  value:
+                    data:
+                      id: 1
+                      firstname: Tibor
+                      lastname: Bíró
+                      username: tibor.biro
+                      birthday: "2011-02-06"
+                      class: "9A"
+                      average: null
+                      height: 158
+                      siblings: 2
+                      image: "https://randomuser.me/api/portraits/men/0.jpg"
+
+  /api/students/class/{class}:
+    get:
+      operationId: student.class
+      summary: Get students by class
+      tags:
+        - Students
+      parameters:
+        - name: class
+          in: path
+          required: true
+          description: The class name to filter by (e.g. 9A, 12D)
+          schema:
+            type: string
+          example: "9A"
+      responses:
+        '200':
+          description: List of students in the specified class
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Student'
+
+  /api/students/stat/{class}:
+    get:
+      operationId: student.stat
+      summary: Get statistics for a class (average + count)
+      tags:
+        - Students
+      parameters:
+        - name: class
+          in: path
+          required: false
+          description: The class name to get stats for (e.g. 9A, 12D), omit for all classes
+          schema:
+            type: string
+          example: "9A"
+      responses:
+        '200':
+          description: Class statistics
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/StudentStat'
+
+  /api/students/tallest:
+    get:
+      operationId: student.tallest
+      summary: Get the tallest student
+      tags:
+        - Students
+      responses:
+        '200':
+          description: The tallest student record
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Student'
+              examples:
+                response:
+                  value:
+                    data:
+                      id: 256
+                      firstname: Lili
+                      lastname: Rácz
+                      username: lili.racz
+                      birthday: "2009-07-22"
+                      class: "11A"
+                      average: "2.29"
+                      height: 200
+
+  /api/students/taller/{height}:
+    get:
+      operationId: student.taller
+      summary: Get students taller than the given height (in cm)
+      tags:
+        - Students
+      parameters:
+        - name: height
+          in: path
+          required: true
+          description: Height threshold in cm
+          schema:
+            type: integer
+            format: int32
+          example: 150
+      responses:
+        '200':
+          description: List of students taller than the given height
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Student'
+
+  /api/students/classes:
+    get:
+      operationId: student.classes
+      summary: Get distinct class names across all students
+      tags:
+        - Students
+      responses:
+        '200':
+          description: List of distinct class names
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      type: string
+              examples:
+                response:
+                  value:
+                    data:
+                      - "9A"
+                      - "9B"
+                      - "9C"
+                      - "9D"
+                      - "10A"
+                      - "10B"
+                      - "10C"
+                      - "10D"
+                      - "11A"
+                      - "11B"
+                      - "11C"
+                      - "11D"
+                      - "12A"
+                      - "12B"
+                      - "12C"
+                      - "12D"
+
+  /api/tablets:
+    get:
+      operationId: tablets.index
+      summary: Get all tablets
+      tags:
+        - Tablets
+      responses:
+        '200':
+          description: List of all available tablets
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Tablet'
+
+  /api/tablets/wifi:
+    get:
+      operationId: tablets.wifi
+      summary: Get tablets with Wi-Fi only (no cellular)
+      tags:
+        - Tablets
+      responses:
+        '200':
+          description: List of Wi-Fi enabled tablets
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Tablet'
+
+  /api/tablets/cheap:
+    get:
+      operationId: tablets.cheap
+      summary: Get cheap tablets (price below 150,000)
+      tags:
+        - Tablets
+      responses:
+        '200':
+          description: List of tablets priced under 150,000
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Tablet'
+              examples:
+                response:
+                  value:
+                    data:
+                      - id: 74
+                        manufacturer: Xiaomi
+                        model: "Xiaomi Pad 7"
+                        operating_system: "Xiaomi HyperOS"
+                        processor: "Snapdragon 7+ Gen 3"
+                        storage: 128
+                        memory: 8
+                        display_size: "11.20"
+                        display_type: "IPS LCD"
+                        refresh_rate: 144
+                        mobile_network: Wi-Fi
+                        weight: 500
+                        color: Kék
+                        color_hex: "#9DBED8"
+                        image_url: "https://i02.appmifile.com/603_operator_sg/28/02/2025/3a1977bd13ab44d01273c6512fab01df.png"
+                        product_url: "https://www.mediamarkt.hu/hu/product/_xiaomi-pad-7-11-128gb-wifi-kek-tablet-vhu5285eu-1477756.html"
+                        price: 119999
+                      - id: 75
+                        manufacturer: Xiaomi
+                        model: "Xiaomi Pad 7"
+                        operating_system: "Xiaomi HyperOS"
+                        processor: "Snapdragon 7+ Gen 3"
+                        storage: 128
+                        memory: 8
+                        display_size: "11.20"
+                        display_type: "IPS LCD"
+                        refresh_rate: 144
+                        mobile_network: Wi-Fi
+                        weight: 500
+                        color: Zöld
+                        color_hex: "#AAB9A4"
+                        image_url: "https://i02.appmifile.com/603_operator_sg/28/02/2025/3a1977bd13ab44d01273c6512fab01df.png"
+                        product_url: "https://m.alza.hu/xiaomi-pad-7-8gb-128gb-zold-d12815505.htm"
+                        price: 119990
+
+  /api/tablets/manufacturer/{manufacturer}:
+    get:
+      operationId: tablets.manufacturer
+      summary: Get tablets by manufacturer
+      tags:
+        - Tablets
+      parameters:
+        - name: manufacturer
+          in: path
+          required: true
+          description: The tablet manufacturer (e.g. Apple, Samsung, Lenovo, Xiaomi, HONOR)
+          schema:
+            type: string
+          example: Samsung
+      responses:
+        '200':
+          description: List of tablets from the specified manufacturer
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Tablet'
+
+  /api/tablets/price/{min}/{max}:
+    get:
+      operationId: tablets.price
+      summary: Get tablets within a price range (sorted ascending by price)
+      tags:
+        - Tablets
+      parameters:
+        - name: min
+          in: path
+          required: true
+          description: Minimum price
+          schema:
+            type: integer
+            format: int32
+          example: 50000
+        - name: max
+          in: path
+          required: true
+          description: Maximum price
+          schema:
+            type: integer
+            format: int32
+          example: 200000
+      responses:
+        '200':
+          description: List of tablets within the specified price range
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Tablet'
+
+  /api/tablets/top5/{manufacturer}:
+    get:
+      operationId: tablets.top5
+      summary: Get top 5 most expensive tablets from a manufacturer (ordered by price descending)
+      tags:
+        - Tablets
+      parameters:
+        - name: manufacturer
+          in: path
+          required: true
+          description: The tablet manufacturer (e.g. Apple, Samsung, HONOR, Lenovo, Xiaomi)
+          schema:
+            type: string
+          example: Apple
+      responses:
+        '200':
+          description: Top 5 most expensive tablets from the specified manufacturer
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Tablet'
+
+  /api/tablets/apple/pro:
+    get:
+      operationId: tablets.pro
+      summary: Get Apple tablets with "air" in the model name, sorted by display size descending then price ascending
+      tags:
+        - Tablets
+      responses:
+        '200':
+          description: Filtered list of Apple Air tablets for iPad Pro lineup queries
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Tablet'
+
+  /api/tablets/better/{storage}/{memory}/{display}:
+    get:
+      operationId: tablets.better
+      summary: Get tablets with at least the specified storage (GB), memory (GB), and display size (inches) — all three conditions must be met. Sorted by price ascending.
+      tags:
+        - Tablets
+      parameters:
+        - name: storage
+          in: path
+          required: true
+          description: Minimum storage capacity in GB
+          schema:
+            type: integer
+            format: int32
+          example: 50
+        - name: memory
+          in: path
+          required: true
+          description: Minimum memory (RAM) in GB
+          schema:
+            type: integer
+            format: int32
+          example: 4
+        - name: display
+          in: path
+          required: true
+          description: Minimum display size in inches
+          schema:
+            type: number
+            format: float
+          example: 9.7
+      responses:
+        '200':
+          description: List of tablets meeting all three minimum specifications
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Tablet'
+
+components:
+  schemas:
+    Student:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+          example: 1
+        firstname:
+          type: string
+          description: First name of the student
+          example: Tibor
+        lastname:
+          type: string
+          description: Last name of the student
+          example: Bíró
+        username:
+          type: string
+          description: Unique username identifier
+          example: tibor.biro
+        birthday:
+          type: string
+          format: date
+          description: Date of birth in YYYY-MM-DD format
+          example: "2011-02-06"
+        class:
+          type: string
+          description: Class assignment (e.g. 9A, 12D)
+          example: "9A"
+        average:
+          type: number
+          format: float
+          nullable: true
+          description: Academic performance average (may be null)
+          example: null
+        height:
+          type: integer
+          format: int32
+          description: Height in centimeters
+          example: 158
+        siblings:
+          type: integer
+          format: int32
+          description: Number of siblings
+          example: 2
+        image:
+          type: string
+          format: uri
+          description: Profile image URL from randomuser.me
+          example: "https://randomuser.me/api/portraits/men/0.jpg"
+
+    StudentStat:
+      type: object
+      properties:
+        average:
+          type: number
+          format: float
+          nullable: true
+          description: Average academic performance of students in the class
+          example: 4.12
+        size:
+          type: integer
+          format: int32
+          description: Number of students in the class
+          example: 30
+
+    Tablet:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+          example: 1
+        manufacturer:
+          type: string
+          description: Tablet brand/manufacturer
+          example: Apple
+        model:
+          type: string
+          description: Model name
+          example: "iPad Pro 11 (M5)"
+        operating_system:
+          type: string
+          description: Pre-installed operating system
+          example: iPadOS 26
+        processor:
+          type: string
+          description: Processor/CPU model
+          example: Apple M5
+        storage:
+          type: integer
+          format: int32
+          description: Internal storage in GB
+          example: 256
+        memory:
+          type: integer
+          format: int32
+          nullable: true
+          description: RAM in GB (may be null for non-Apple tablets)
+          example: 12
+        display_size:
+          type: string
+          description: Display size in inches (stored as decimal string)
+          example: "11.00"
+        display_type:
+          type: string
+          description: Display panel technology
+          example: "Ultra Retina XDR Tandem OLED"
+        refresh_rate:
+          type: integer
+          format: int32
+          description: Screen refresh rate in Hz
+          example: 120
+        mobile_network:
+          type: string
+          description: Mobile network connectivity option (Wi-Fi, 5G)
+          example: Wi-Fi
+        weight:
+          type: integer
+          format: int32
+          description: Device weight in grams
+          example: 444
+        color:
+          type: string
+          description: Color name (Hungarian)
+          example: asztrofekete
+        color_hex:
+          type: string
+          description: Color hexadecimal code
+          example: "#2E2E30"
+        image_url:
+          type: string
+          format: uri
+          description: Official product image URL
+          example: "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-pro-11-inch-m5.png"
+        product_url:
+          type: string
+          format: uri
+          description: Official product page link
+          example: "https://www.apple.com/hu/shop/buy-ipad/ipad-pro/11-hüvelykes-kijelző-256gb-asztrofekete-wifi-normál-üveg"
+        price:
+          type: integer
+          format: int32
+          description: Price in Hungarian Forint (HUF)
+          example: 549990
